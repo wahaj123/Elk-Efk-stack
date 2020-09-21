@@ -1,0 +1,9 @@
+{
+    "template": "event",
+    "index_patterns": [
+        "event-*"
+    ],
+    "settings": {
+        "number_of_shards": 1
+    }
+}

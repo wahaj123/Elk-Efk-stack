@@ -1,0 +1,11 @@
+ERROR: 2020/09/18 22:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48276->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 22:17:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48258->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 22:27:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48260->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 22:37:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48262->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 22:47:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48264->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 22:57:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48266->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 23:17:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48270->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 23:27:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48272->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 23:37:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48274->10.0.0.213:6379: use of closed network connection choose wisely
+ERROR: 2020/09/18 23:37:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48274->10.0.0.213:6379: use of closed network connection choose wisely
