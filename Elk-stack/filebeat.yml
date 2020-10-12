@@ -3,17 +3,17 @@ filebeat.inputs:
   enabled: true
   paths:
     - /usr/share/filebeat/mylog/event.log
-  tags: ["event"]
+  tags: ["adserver-event-stg"]
 - type: log
   enabled: true
   paths:
     - /usr/share/filebeat/mylog/error.log
-  tags: ["error"]
+  tags: ["adserver-error-stg"]
 - type: log
   enabled: true
   paths:
     - /usr/share/filebeat/mylog/access.log
-  tags: ["access"]
+  tags: ["adserver-access-stg"]
 
 output.logstash:
   hosts: ["logstash:5044"]

@@ -2,7 +2,7 @@ version: '3.3'
 services:
   elasticsearch:
     container_name: elasticsearch
-    image: elasticsearch:7.5.0
+    image: elasticsearch:7.8.1
     environment:
       - bootstrap.memory_lock=true
       - discovery.type=single-node
@@ -45,16 +45,11 @@ services:
         max-file: "50"
   logstash:
     container_name: logstash
-    image: logstash:7.5.0
+    image: logstash:latest
     ulimits:
       memlock:
         soft: -1
         hard: -1
-    volumes:
-      - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
-      - ./event.template.json:/usr/share/logstash/templates/event.template.json
-      - ./error.template.json:/usr/share/logstash/templates/error.template.json
-      - ./access.template.json:/usr/share/logstash/templates/access.template.json
     ports:
       - 5044:5044
     links:
@@ -72,7 +67,7 @@ services:
   filebeat:
     user: root
     container_name: filebeat
-    image: docker.elastic.co/beats/filebeat:7.5.0
+    image: docker.elastic.co/beats/filebeat:7.8.1
     links:
       - logstash:logstash
     depends_on:
