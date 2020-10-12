@@ -39,9 +39,9 @@ COPY mediaplanner-template.json /usr/share/logstash/mediaplanner-template.json
 COPY celery-template.json /usr/share/logstash/celery-template.json
 COPY sswa-template.json /usr/share/logstash/sswa-template.json
 
-COPY event.template.json /usr/share/logstash/event.template.json
-COPY error.template.json /usr/share/logstash/error.template.json
-COPY access.template.json /usr/share/logstash/access.template.json
+COPY adserver-event-template.json /usr/share/logstash/adserver-event-template.json
+COPY adserver-error-template.json /usr/share/logstash/adserver-error-template.json
+COPY adserver-access-template.json /usr/share/logstash/adserver-access-template.json
 
 COPY pipelines.yml config/pipelines.yml
 COPY logstash-full.yml config/logstash.yml

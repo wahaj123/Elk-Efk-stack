@@ -1,9 +1,0 @@
-{
-    "template": "error",
-    "index_patterns": [
-        "error-*"
-    ],
-    "settings": {
-        "number_of_shards": 1
-    }
-}

@@ -1,9 +1,0 @@
-{
-    "template": "access",
-    "index_patterns": [
-        "access-*"
-    ],
-    "settings": {
-        "number_of_shards": 1
-    }
-}
