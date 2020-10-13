@@ -1,0 +1,28 @@
+es_host: 192.168.168.17
+es_port: 9200
+name: Slack-demo
+
+type: frequency
+
+index: adserver-*
+
+num_events: 1
+
+timeframe:
+  hours: 1
+
+filter:
+
+- query:
+    query_string:
+      query: "RabbitMQ connection is closed"
+alert_text: "AdServer down on hostname: {1} , message: [RabbitMQ connection is closed]"
+alert_text_type: alert_text_only
+alert_text_args: ["logLevel","agent.hostname","message","tags","type"]
+# include: ["logLevel","agent.hostname","message","tags","type"]
+
+alert:
+- "slack"
+
+slack:
+slack_webhook_url: ""
