@@ -42,6 +42,7 @@ COPY sswa-template.json /usr/share/logstash/sswa-template.json
 COPY adserver-event-template.json /usr/share/logstash/adserver-event-template.json
 COPY adserver-error-template.json /usr/share/logstash/adserver-error-template.json
 COPY adserver-access-template.json /usr/share/logstash/adserver-access-template.json
+COPY spotx-template.json /usr/share/logstash/spotx-template.json
 
 COPY pipelines.yml config/pipelines.yml
 COPY logstash-full.yml config/logstash.yml

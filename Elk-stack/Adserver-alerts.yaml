@@ -25,4 +25,4 @@ alert:
 - "slack"
 
 slack:
-slack_webhook_url: ""
+slack_webhook_url: "https://hooks.slack.com/services/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"

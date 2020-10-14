@@ -15,6 +15,12 @@ filebeat.inputs:
     - /usr/share/filebeat/mylog/access.log
   tags: ["adserver-access-stg"]
 
+- type: log
+  enabled: true
+  paths:
+    - /usr/share/filebeat/mylog/Bidder*.log
+  tags: ["spotx"]
+
 output.logstash:
   hosts: ["logstash:5044"]
 
