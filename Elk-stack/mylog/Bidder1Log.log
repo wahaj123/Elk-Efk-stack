@@ -1,0 +1,27 @@
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | fileRotate          : 200 | Closing file /media/ephemeral0/SpotX2Bidder1BidRequests_2350.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | initializeCollector :  31 | Opening file /media/ephemeral0/SpotX2Bidder1BidRequests_2355.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | fileRotate          : 200 | Closing file /media/ephemeral0/SpotX2Bidder1Impressions_2350.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | initializeCollector :  31 | Opening file /media/ephemeral0/SpotX2Bidder1Impressions_2355.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | fileRotate          : 200 | Closing file /media/ephemeral0/SpotX2Bidder1AdServerEvents_2350.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | initializeCollector :  31 | Opening file /media/ephemeral0/SpotX2Bidder1AdServerEvents_2355.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | fileRotate          : 200 | Closing file /media/ephemeral0/SpotX2Bidder1CookieEvents_2350.log
+Tue Oct 13 23:55:01 2020,1602633301 | INFO  | FileCollector.cpp    | initializeCollector :  31 | Opening file /media/ephemeral0/SpotX2Bidder1CookieEvents_2355.log
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:01 2020,1602633301 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:02 2020,1602633302 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:02 2020,1602633302 | INFO  | SpotXExchange.cpp    | handleBidImpression :1048 | SPOTX_BIDREQUEST_ID= 57d203460daf11eb89bb1d7b310e0003
+Tue Oct 13 23:55:02 2020,1602633302 | INFO  | SpotXExchange.cpp    | handleBidImpression :1057 | SPOTX_WIN_PRICE= 1
+Tue Oct 13 23:55:02 2020,1602633302 | INFO  | SpotXExchange.cpp    | calculateWinningPrice: 960 | Exchange Price = 1, Original Bid Price = 15.00, Winning Price =0.001000
+Tue Oct 13 23:55:02 2020,1602633302 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:02 2020,1602633302 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:02 2020,1602633302 | ERROR | Exchange.cpp         | getCookieSyncRedirectLocation: 586 | Using Empty Cookie Sync Redirect Location/Tag
+Tue Oct 13 23:55:02 2020,1602633302 | INFO  | SpotXExchange.cpp    | handleBidImpression :1048 | SPOTX_BIDREQUEST_ID= 6335443b0daf11eb8bb01ff5f67f0001

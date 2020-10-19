@@ -50,6 +50,11 @@ services:
       memlock:
         soft: -1
         hard: -1
+    # volumes:
+    #   - ./logstash.conf:/usr/share/logstash/pipeline/logstash.conf
+    #   - ./event.template.json:/usr/share/logstash/templates/event.template.json
+    #   - ./error.template.json:/usr/share/logstash/templates/error.template.json
+    #   - ./access.template.json:/usr/share/logstash/templates/access.template.json
     ports:
       - 5044:5044
     links:
@@ -92,3 +97,26 @@ services:
       options:
         max-size: "10m"
         max-file: "50"
+  # elastalert:
+  #   container_name: elastalert
+  #   image: elasticalert:latest
+  #   restart: unless-stopped
+  #   ulimits:
+  #     memlock:
+  #       soft: -1
+  #       hard: -1
+  #   links:
+  #     - elasticsearch:elasticsearch
+  #   depends_on:
+  #     - elasticsearch
+  #     - kibana
+  #   stdin_open: true
+  #   tty: true
+  #   network_mode: bridge
+  #   logging:
+  #     driver: "json-file"
+  #     options:
+  #       max-size: "10m"
+  #       max-file: "50"
+
+
