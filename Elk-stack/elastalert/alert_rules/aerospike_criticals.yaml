@@ -1,0 +1,37 @@
+name: "Aerospike critical errors"
+
+# (Required)
+# Type of alert.
+# the frequency rule type alerts when num_events events occur with timeframe time
+type: frequency
+
+# (Required)
+# Index to search, wildcard supported
+index: aerospike-*
+
+# (Required, frequency specific)
+# Alert when this many documents matching the query occur within a timeframe
+num_events: 1
+
+# (Required, frequency specific)
+# num_events must occur within this amount of time to trigger an alert
+timeframe:
+  minutes: 1
+
+# (Required)
+# A list of Elasticsearch filters used for find events
+# These filters are joined with AND and nested in a filtered query
+# For more info: http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl.html
+filter:
+- query:
+    query_string:
+      query: "CRITICAL"
+
+# (Required)
+# The alert is use when a match is found
+alert:
+- victorops:
+    victorops_api_key: "5c21ffc6-eee3-451e-94e5-5ca623c7918a"
+    victorops_routing_key: "ZABBIX"
+    victorops_message_type: "CRITICAL"
+    victorops_entity_display_name: "Critical error accured in Aerospike"

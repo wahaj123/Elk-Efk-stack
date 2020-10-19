@@ -97,26 +97,26 @@ services:
       options:
         max-size: "10m"
         max-file: "50"
-  # elastalert:
-  #   container_name: elastalert
-  #   image: elasticalert:latest
-  #   restart: unless-stopped
-  #   ulimits:
-  #     memlock:
-  #       soft: -1
-  #       hard: -1
-  #   links:
-  #     - elasticsearch:elasticsearch
-  #   depends_on:
-  #     - elasticsearch
-  #     - kibana
-  #   stdin_open: true
-  #   tty: true
-  #   network_mode: bridge
-  #   logging:
-  #     driver: "json-file"
-  #     options:
-  #       max-size: "10m"
-  #       max-file: "50"
+  elastalert:
+    container_name: elastalert
+    image: elasticalert:latest
+    restart: unless-stopped
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    links:
+      - elasticsearch:elasticsearch
+    depends_on:
+      - elasticsearch
+      - kibana
+    stdin_open: true
+    tty: true
+    network_mode: bridge
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "50"
 
 

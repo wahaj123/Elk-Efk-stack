@@ -27,6 +27,9 @@ ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERRO
 ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
 ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
 ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
+ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
+ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
+ERROR: 2020/09/18 23:07:16 adserver.go:366: hgetall on redis_entitylist_key ERROR: write tcp 172.19.0.2:48268->10.0.0.213:6379: RabbitMQ connection is closed
 
 
 
